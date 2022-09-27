@@ -1,0 +1,103 @@
+   * {box-sizing: border-box}
+
+  body{  
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: #dadada;   
+  } 
+
+  /* Add padding to containers */ 
+  .container {
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+  h1 {
+    color: #fc0463;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(184, 3, 184);
+    text-decoration-style: double;
+    text-decoration-thickness: 1.2px;
+  }
+
+   /* Overwrite default styles of hr */
+   hr {
+    border: 1.5px solid #d6057f;
+    margin-bottom: 25px;
+  }
+  
+  label[for] {
+    color:#000;
+    padding-right: 40%;
+    font-size: 22px;
+    font-weight:bold;
+    
+  }
+  label[for=male], label[for=female], label[for=others]{
+    padding-right: 63px;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+ /* Width input fields */ 
+  input[type=text], input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  input[type=phone]{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 90px 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  select{
+    width: 6%;
+    padding: 5px;
+    margin: 5px 10px 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+  }
+
+  div {  
+    padding: 10px 0;  
+ }  
+  
+  /* Set a style for the submit/register button */
+  .register {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  }
+  
+  .register:hover {
+    opacity:1;
+  }
+  
+  /* Add a color to footer text*/
+footer {
+    color: #fc0463;
+    text-align: center;
+  }
+  
