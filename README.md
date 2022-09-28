@@ -41,7 +41,7 @@ CRUD is a set of basic computer programming operations that deal with the Creati
 ```
 
 # Conclusion
-This repo will show you what CRUD means and what each individual operation in a CRUD php does.
+This repo s' showed you what CRUD means and what each individual operation in a CRUD form does.
 
 <h4>You can think about CRUD in this way:</h4>
 
